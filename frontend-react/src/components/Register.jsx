@@ -14,15 +14,12 @@ const Register = () => {
     const handleRegistration = async (e) => {
         e.preventDefault();
         setLoading(true);
-        // console.log('test');
-
-  
+ 
     const userData = {
         username, email, password
     }
         // console.log('userData==>', userData)
-      try{
-        
+      try{        
         const response = await axios.post('http://127.0.0.1:8000/api/v1/register/', userData)
         console.log('response.data==>', response.data)
         console.log('registation successful');
@@ -69,9 +66,6 @@ const Register = () => {
                 </div>
             </div>
         </div>
-
-
-
 
     </>
   )
