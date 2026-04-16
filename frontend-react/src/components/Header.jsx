@@ -3,6 +3,7 @@ import Button from './Button'
 import { Link, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../AuthProvider'
 
+
 const Header = () => {
    const {isLoggedIn, setIsLoggedIn} = useContext(AuthContext)
    const navigate = useNavigate();
@@ -11,7 +12,7 @@ const Header = () => {
     localStorage.removeItem('accessToken')
     localStorage.removeItem('refreshToken')
     setIsLoggedIn(false)
-    console.log('Logged Out');
+
     navigate('/login')
    }
   return (
@@ -20,7 +21,11 @@ const Header = () => {
         <Link  className='navbar-brand text-light' to="/"> Stock Prediction Portal</Link>
         <div>
           {isLoggedIn ? (
+            <>
+            <Button text='Dashboard' class="btn btn-info" url="/dashboard" />
+            &nbsp;
             <button className='btn btn-danger' onClick={handleLogout}>Logout</button>
+            </>
           ) : (
             <>
               <Button text='login' class="btn btn-outline-info" url="/login" />
