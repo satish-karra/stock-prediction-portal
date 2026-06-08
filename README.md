@@ -6,18 +6,13 @@ A full-stack web application that predicts stock prices using a **Deep Learning 
 
 ## Demo
 
-> Watch the live demo video on LinkedIn → [LinkedIn Post](#) *(update this link after posting)*
+Watch the live demo on LinkedIn → [Stock Prediction Portal Demo](https://www.linkedin.com/in/satishkarra/)
 
 ---
 
 ## Screenshots
 
-> Add screenshots of your app here after recording.
-> Drag and drop images into this section on GitHub.
-
-| Login Page | Dashboard | Stock Prediction |
-|------------|-----------|-----------------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) | ![Prediction](screenshots/prediction.png) |
+![App Screenshot](screenshots/Screenshot%202026-06-01%20143927.png)
 
 ---
 
@@ -213,10 +208,14 @@ The LSTM (Long Short-Term Memory) model is pre-trained and saved as `stock_predi
 
 **Satish Karra**
 - GitHub: [@satish-karra](https://github.com/satish-karra)
-- LinkedIn: [linkedin.com/in/your-profile](#) *(update this)*
+- LinkedIn: [linkedin.com/in/satishkarra](https://www.linkedin.com/in/satishkarra/)
 
 ---
 
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+*Built with passion by [Satish Karra](https://www.linkedin.com/in/satishkarra/) — Full Stack Developer & ML Enthusiast*
